@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Year 2024, Greeting Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card-page cart-page-front">
+            <div class="card-page cart-page-outside"></div>
+            <div class="card-page cart-page-inside">
+                <span class="new-year">
+                    <!-- Heart Image -->
+                    <img src="WhatsApp Image 2023-12-31 at 21.15.35.jpeg" class="hero-img" alt="">
+
+                    <!-- Message of New Year -->
+                    <p id="msg">Happy New Year<br>  <span id="name">❤️</span>  Enter your name!!</p>
+
+                    <!-- Input field for the name -->
+                    <div class="input-sec">
+                    <input type="text" id="nameInput" placeholder="Enter Your Name">
+                    <button onclick="updateMessage() " class="genmss">Generate Message</button>
+                </div>
+                </span>
+            </div>
+        </div>
+        <div class="sc-page">
+            <!-- Default image before the name is entered -->
+            <img id="secondimg" class="hidden"src="https://www.tubewp.com/wp-content/uploads/2023/12/happy-new-year-2024-wallpapers-12.jpg" alt="smtech">
+            <!-- Special message that will replace the default message -->
+            <p id="specialMessage" class="hidden"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
