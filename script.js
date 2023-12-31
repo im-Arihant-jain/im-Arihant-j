@@ -18,7 +18,7 @@ function updateMessage() {
         nameSpan.textContent = ` ${nameInput} `;
         personalizedMessage.textContent = `Happy New Year!\n  Dear ${nameInput} ❤️ Cheers!! ❤️`;
         // Hide the special message and show the default image
-        specialMessage.innerHTML = "Hey " + nameInput + "<br>Thanks a million for being the awesome human you are. Your presence has made my days brighter, and I'm grateful for that. Let's crush it together in the coming year!<br>Cheers to more laughs and adventures!❤️";
+        specialMessage.innerHTML = "Hey " + nameInput + "<br>Thanks a million for being the awesome human you are. Wishing you another year brimming with exhilarating adventures, fostering lasting friendships, and conquering new heights. Lets make 2024 all the more amazing !<br>Cheers to more laughs and adventures!❤️";
  specialMessage.classList.remove("hidden");
         secondImage.classList.add("hidden");
     } else {
